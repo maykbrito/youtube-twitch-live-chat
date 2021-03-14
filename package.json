@@ -1,0 +1,16 @@
+{
+  "name": "twitch-youtube-live-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["twitch", "youtube", "events"],
+  "author": "Mayk Brito",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "tmi.js": "^1.7.5"
+  }
+}

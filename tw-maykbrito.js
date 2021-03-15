@@ -2,7 +2,7 @@ const tmi = require('tmi.js')
 
 const client = new tmi.Client({
   connection: { reconnect: true },
-  channels: ['maykbrito', 'thasfin']
+  channels: ['maykbrito']
 });
 
 client.connect();

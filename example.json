@@ -1,0 +1,47 @@
+{ 
+  "liveChatTextMessageRenderer": {
+    "message": {
+      "runs": [
+        {
+          "text": "RAFA LINDAAAAAAAAAAAAA"
+        }
+      ]
+    },
+    "authorName": {
+      "simpleText": "Marcelo"
+    },
+    "authorPhoto": {
+      "thumbnails": [
+        {
+          "url": "https://yt4.ggpht.com/ytc/AAUvwnjOrNx0J5JWCGntnXnWyFraoJZv6OBfYBAcQgnccA=s32-c-k-c0x00ffffff-no-rj",
+          "width": 32,
+          "height": 32
+        },
+        {
+          "url": "https://yt4.ggpht.com/ytc/AAUvwnjOrNx0J5JWCGntnXnWyFraoJZv6OBfYBAcQgnccA=s64-c-k-c0x00ffffff-no-rj",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    "contextMenuEndpoint": {
+      "clickTrackingParams": "CAEQl98BIhMI27XZjMWw7wIVT8XBCh0nhQHb",
+      "commandMetadata": {
+        "webCommandMetadata": {
+          "ignoreNavigation": true
+        }
+      },
+      "liveChatItemContextMenuEndpoint": {
+        "params": "Q2pzS09Rb2FRMGxxUTNSSmJrWnpUemhEUmxOUlVuSlJXV1JFVmtWS1VFRVNHME5MUTNsMFRYcEVjMDg0UTBaWVUyNXNVVWxrZEZOVlJ6Sm5NUm9wS2ljS0dGVkRORGh5YTFSc1dHcFNaRFp3Ym5GeFFtdGtWakJOZHhJTGNXaGhMVXMyT1hOQlExRWdBaWdFTWhvS0dGVkRObkIxYm5Kb2NsSndZbUl0VURGeWJHbGZUVmxmUVElM0QlM0Q="
+      }
+    },
+    "id": "CjkKGkNJakN0SW5Gc084Q0ZTUVJyUVlkRFZFSlBBEhtDS0N5dE16RHNPOENGWFNubFFJZHRTVUcyZzE%3D",
+    "timestampUsec": "1615750878798139",
+    "authorExternalChannelId": "UC6punrhrRpbb-P1rli_MY_A",
+    "contextMenuAccessibility": {
+      "accessibilityData": {
+        "label": "Ações em comentários"
+      }
+    }
+  }
+}

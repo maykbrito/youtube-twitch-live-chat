@@ -6,11 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["twitch", "youtube", "events"],
+  "keywords": [
+    "twitch",
+    "youtube",
+    "events"
+  ],
   "author": "Mayk Brito",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "colors": "^1.4.0",
     "tmi.js": "^1.7.5"
   }
 }

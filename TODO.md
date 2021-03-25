@@ -1,8 +1,13 @@
-* [x] bugfix:
-  * [x] ordenação do localStorage
+## Bugfix
+
+* [x] ordenação do localStorage
+
+## Features
+
 * [x] Improve layout
   * [x] caixinha
   * [x] channel colors
+  * [ ] quebra de linha, ajuste de texto na caixa
 * [x] Buscar do localStorage
   * [x] renderizar todas as mensagens do localStorage
 * [x] Salvar no localStorage
@@ -12,4 +17,4 @@
 * [ ] Bot
   * [ ] de tempos em tempos, auto enviar links
     * [ ] devHouse
-    * [ ] youtube
+    * [ ] youtubechannelClasses

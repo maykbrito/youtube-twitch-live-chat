@@ -6,7 +6,7 @@ const Messages = {
     Storage.set('messages', Messages.data)
   },
   start() {
-    Messages.data.map(Messages.render)
+    Messages.data.reverse().map(Messages.render)
   },
   render({ tags, message, channel }) {
     const div = document.querySelector('div')

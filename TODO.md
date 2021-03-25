@@ -1,6 +1,8 @@
-* [ ] bugfix:
+* [x] bugfix:
   * [x] ordenação do localStorage
-* [ ] Improve layout
+* [x] Improve layout
+  * [x] caixinha
+  * [x] channel colors
 * [x] Buscar do localStorage
   * [x] renderizar todas as mensagens do localStorage
 * [x] Salvar no localStorage

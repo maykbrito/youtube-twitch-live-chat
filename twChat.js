@@ -23,9 +23,9 @@ const printMessage = (tag, message, channel) => {
 client.on('message', (channel, tags, message, self) => {
   printMessage(tags, message, channel)
   messages.unshift({ channel, tags, message })
-
   if (message.includes("#pergunta")) {
-    console.log(message)
-    questions.push({ channel, tags, message })
+    console.clear()
+    questions.unshift({ channel, tags, message })
+    questions.forEach(question => console.log(`${question.channel} - ${question.tags['display-name']} - ${question.message}`))
   }
 })

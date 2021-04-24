@@ -25,7 +25,8 @@ const Messages = {
     const channels = {
       "#jakeliny": ["text-pink-500"],
       "#maykbrito": ["text-green-500"],
-      "#thaissacandella": ["text-purple-500"]
+      "#thaissacandella": ["text-purple-400"],
+      "#maiattodev": ["text-blue-500"],
     }
 
     return channels[name]

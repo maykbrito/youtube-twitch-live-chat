@@ -1,4 +1,5 @@
 import { Storage } from './Storage.js';
+import { parseEmotes } from './Emotes.js';
 
 const Messages = {
   data: Storage.get('messages'),
@@ -12,6 +13,8 @@ const Messages = {
     const div = document.querySelector('div')
     
     const channelClasses = Messages.channelClasses(channel).join(" ")
+
+    message = parseEmotes(message, tags)
     
     const content = `
     <p class="mb-4 p-4 shadow bg-gray-800 text-white">

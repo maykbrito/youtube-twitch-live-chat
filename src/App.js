@@ -1,7 +1,7 @@
 import { Messages } from './Messages.js';
+import { Preferences } from './Preferences.js';
 
 function App() {
-
   const client = new tmi.Client(
     {
       connection: { reconnect: true },
@@ -34,6 +34,7 @@ function App() {
   })
 
   Messages.start()
+  Preferences.start()
 }
 
 export { App }

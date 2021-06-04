@@ -23,7 +23,8 @@ const Messages = {
       <span style="color: ${tags.color}"> ${tags['display-name']}</span>: ${message} 
     </p>`
     
-    div.innerHTML = content + div.innerHTML;
+    div.innerHTML = div.innerHTML + content;
+    div.scrollTop = div.scrollHeight;
   },
   channelClasses(name) {
     const channels = {

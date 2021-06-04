@@ -1,20 +1,17 @@
-const querys = location.search
-const queryURL = new URLSearchParams(querys)
+const querys = location.search;
+const queryURL = new URLSearchParams(querys);
 
 const Preferences = {
   start() {
     const body = document.querySelector('body');
-    const { background, messageColor, textColor } = this.getAll();
+    const { background, messageBackgournd, textColor } = this.getAll();
 
     body.style.background = background;
 
     const cardMessages = document.querySelectorAll('.card-message');
 
     cardMessages.forEach((message, index) => {
-      messageColor && message.classList.remove("bg-gray-800");
-      textColor && message.classList.remove("text-white");
-  
-      message.style.background = messageColor;
+      message.style.background = messageBackgournd;
       message.style.color = textColor;
     });
   },
@@ -31,9 +28,9 @@ const Preferences = {
   },
   getAll() {
     return {
-      background: this.get("bg"),
-      messageColor: this.get("msg"),
-      textColor: this.get("text"),
+      background: this.get("bg-color"),
+      messageBackgournd: this.get("msgbox-color"),
+      textColor: this.get("text-color"),
     }
   },
 }
